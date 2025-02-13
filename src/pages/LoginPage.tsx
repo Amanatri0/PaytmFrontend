@@ -31,8 +31,10 @@ export function LoginPage() {
 
   return (
     <>
-      <div className=" flex items-center justify-center fixed size-full bg-white">
-        <div className=" flex flex-col scroll-hidden overflow-auto flex-shrinkrink items-center space-y-10 rounded-3xl  bg-[#edf6f6] w-96 h-[400px] drop-shadow-[10px_8px_2px_rgba(0,0,0,20)]">
+      <div className="flex justify-center items-center">
+        <div className="absolute inset-0 bg-[url(./money.jpg)] bg-clip-content bg-cover h-[100vh] opacity-60 " />
+        <div className=" flex flex-col  mt-30 scroll-hidden overflow-auto flex-shrink justify-center items-center space-y-10 rounded-3xl bg-[#edf6f6] w-96 h-[400px] drop-shadow-[10px_8px_2px_rgba(0,0,0,20)]">
+          {" "}
           <div className=" mt-10 text-3xl">
             <b>Login Page</b>
           </div>
